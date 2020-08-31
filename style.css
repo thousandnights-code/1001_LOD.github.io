@@ -1,0 +1,218 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	max-width: 1000px;
+	width: 80%; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: url(file:///C:/Users/giulm/OneDrive/Documenti/GitHub/1001_LOD/Free%20Arabian%20Nights%20Vector%20Illustration.svg) no-repeat; 
+	padding: 0 0 20px 70px;  
+	margin: 0; 
+	position: absolute;
+	background-size: cover;
+	}
+
+.title {
+	font-family: 'Jim Nightshade', cursive;
+	text-align: center;
+	color: rgb(216, 183, 145);
+    }
+
+#secondt {
+	font-family: 'Jim Nightshade', cursive;
+	text-align: right;
+	color: rgb(216, 183, 145);
+	font-size: 35px;
+	background-color: rgba(104, 149, 186, 0);
+	padding-right: 170px;
+	margin-left: 600px;
+}
+
+#parin {
+	background-color: rgba(22, 139, 127, 0.1)
+	padding-right: 300px;
+}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+.summary {
+	clear: both; 
+	margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 20px; 
+	width: 250px; 
+	float: left;
+	}
+.summary p {
+	font: italic 1.1em/2.2 georgia; 
+	text-align: justify;
+	color: #7FA6C1;
+	}
+#partitle {
+	padding-bottom: 20px;
+	font: italic;
+}
+.preamble {
+	clear: right;
+	 border:  1px hidden rgba(104, 149, 186, 0.1);
+	 padding-top: 100px;
+     padding-right: 210px;
+     padding-bottom: 170px;
+     padding-left: 20px;
+     margin-left: 350px;
+     margin-top: 60px;
+     margin-bottom: 100px;
+     background-color: rgba(104, 149, 186, 0.4);
+	}
+.supporting {
+    padding: 20px 300px 40px;	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+.explanation {
+         border: 20px solid rgba(68, 52, 121, 0.3);
+         padding: 20px;
+         float: left;
+         width: 80%;
+         margin: 1.70;
+         margin-left: 70px;
+         margin-bottom: 20px;
+}
+.sidebar {
+	margin-left: 400px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+.sidebar .wrapper { 
+	font: 10px verdana, sans-serif; 
+	background: transparent url() top left repeat-y; 
+	padding: 10px; 
+	margin-top: 450px; 
+	width: 130px; 
+	}
+.sidebar h3.select { 
+	background: transparent url() no-repeat top left; 
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.archives { 
+	background: transparent url() no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+.sidebar h3.resources { 
+	background: transparent url() no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 10px; 
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+#listitle {
+	font-family: 'Caudex', serif;
+	color: #56245A;
+	font-size: 17px;
+	margin-right: 20px;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	margin-right: 20px;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url() no-repeat top center; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: #56245A;
+	}
+.sidebar li a:visited {
+	color: #68306C;
+	}
+
+
+.extra1 {
+	background: transparent url() top left no-repeat; 
+	position: absolute; 
+	top: 40px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+	}
