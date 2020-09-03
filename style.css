@@ -53,7 +53,7 @@ abbr {
 
 /* https://static.vecteezy.com/system/resources/previews/000/124/891/original/free-arabian-nights-vector-illustration.jpg */
 .page-wrapper { 
-	background: url("images/Free Arabian Nights Vector Illustration.svg") no-repeat; 
+	background: url(https://static.vecteezy.com/system/resources/previews/000/124/891/original/free-arabian-nights-vector-illustration.jpg) no-repeat; 
 	padding: 0 0 20px 70px;  
 	margin: 0; 
 	position: absolute;
