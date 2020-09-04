@@ -150,13 +150,19 @@ footer a:link, footer a:visited {
 	padding-bottom: 15px;
 	font: italic;
 }
+#lodpar {
+	float: center;
+	width: 53%;
+	margin-left: 450px;
+	margin-top: 30px;
+}
 .explanation {
          border: 20px ridge rgba(68, 52, 121, 0.3);
          padding: 20px;
          float: left;
          width: 70%;
          margin: 1.70;
-         margin-left: 70px;
+         margin-left: 100px;
          margin-bottom: 50px;
          font-size: 18px;
          font-family: 'Nunito', sans-serif;
