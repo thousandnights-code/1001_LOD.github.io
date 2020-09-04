@@ -159,7 +159,7 @@ footer a:link, footer a:visited {
 .explanation {
          border: 20px ridge rgba(68, 52, 121, 0.3);
          padding: 20px;
-         float: left;
+         float: center;
          width: 70%;
          margin: 1.70;
          margin-left: 100px;
