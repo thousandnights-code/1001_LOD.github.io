@@ -124,13 +124,13 @@ abbr {
 	clear: right;
 	 border:  1px hidden rgba(104, 149, 186, 0.1);
 	 padding-top: 100px;
-         padding-right: 250px;
+         padding-right: 270px;
          padding-bottom: 170px;
          padding-left: 0;
          margin-left: 370px;
          margin-top: 60px;
          margin-bottom: 100px;
-         background-color: rgba(104, 149, 186, 0.6);
+         background-color: rgba(104, 149, 186, 0.8);
 	 font-size: 18px;
          width: 1200px;
 	}
@@ -175,7 +175,7 @@ footer a:link, footer a:visited {
 	padding: 10px; 
 	margin-top: 310px; 
 	width: 180px;
-	padding-bottom: 200px; 
+	padding-bottom: 270px; 
 	}
 .sidebar h3.select { 
 	background: transparent url() no-repeat top left; 
